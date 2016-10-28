@@ -8,37 +8,106 @@
   min-height: 400px;
   margin: 0 auto;
   display: block;
-  color: whitesmoke;
+}
+
+.carousel-text {
+  padding-top: 300px;
+  padding-left: 40px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.carousel-subtext {
+  font-size: 18px;
+}
+
+.carousel-subtext:hover {
+  cursor: pointer;
+  color: aquamarine;
 }
 
 .carousel-img {
   height: 400px !important;
   padding: 15px;
-  font-size: 24px;
+  font-size: 36px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .carousel-img1 {
   background: url('http://i.huffpost.com/gen/1224131/images/o-NEUROSCIENCE-facebook.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .carousel-img2 {
   background: url('http://img0.mxstatic.com/wallpapers/d501dcc11d679612a0186e5421189e4c_large.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .carousel-img3 {
   background: url('https://www.astrazeneca.com/content/dam/az/Our-Science/Partnering/neuroscience.jpg/_jcr_content/renditions/cq5dam.web.1200.neuroscience.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 html {
-  background: gray;
-  font-family: sans-serif;
+  background: black;
+  font-family: 'Roboto', sans-serif;
+  color: whitesmoke;
+}
+
+h1 {
+  margin: 10px;
+  display: inline-block;
+  font-weight: normal;
+  font-size: 48px;
+}
+
+.logo {
+  // background: url("https://news.brown.edu/files/BIBS_logo2_0.jpg");
+  // height: 150px;
+  // width: 125px;
+  background: url("https://www.brown.edu/sites/default/files/imagecache/home_teaser/bibs-home.jpg");
+  height: 100px;
+  width: 145px;
+  background-size: cover;
+  float: right;
 }
 
 .navbar {
-  background: whitesmoke;
-  display: inline-block;
+  width: 100%;
+  margin: 10px auto;
+  display: block;
+}
+
+.navbar ul {
+  margin: 10px auto;
+  padding: 0 20px;
 }
 
 .navbar li {
   display: inline-block;
+}
+
+.navbar li a {
+  background: black;
+  padding: 15px 20px;
+  border-radius: 1px;
+}
+
+.navbar li a:hover {
+  cursor: pointer;
+  color: aquamarine;
+  transition: 0.5s ease;
+}
+
+.left-nav {
+  margin-left: 0 !important;;
+  padding-left: 0 !important;;
+}
+
+.clearfix {
+  content: none;
+  clear: both;
 }
