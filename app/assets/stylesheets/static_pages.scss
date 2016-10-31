@@ -4,14 +4,14 @@
 
 .carousel {
   width: 100%;
-  height: 400px;
-  min-height: 400px;
+  height: 500px;
+  min-height: 500px;
   margin: 0 auto;
   display: block;
 }
 
 .carousel-text {
-  padding-top: 250px;
+  padding-top: 350px;
   padding-left: 40px;
   text-shadow: 1px 1px 2px black;
   display: block;
@@ -20,10 +20,13 @@
 .learn-more-button {
   background: #ffd507;
   border-radius: 2px;
-  padding: 4px 15px;
+  padding: 8px 20px;
+  color: black;
+  text-shadow: none;
   font-size: 16px;
   font-weight: 300;
   border: none;
+  text-decoration: none;
 }
 
 .learn-more-button:hover {
@@ -32,7 +35,7 @@
 }
 
 .carousel-img {
-  height: 400px !important;
+  height: 500px !important;
   padding: 15px;
   font-size: 36px;
   background-size: cover;
@@ -104,7 +107,7 @@ h1 {
 
 .navbar li a:hover {
   cursor: pointer;
-  color: aquamarine;
+  color: #ffd507;
   transition: 1s ease;
 }
 
@@ -120,8 +123,29 @@ h1 {
 
 .paragraph {
   width: 60%;
-  margin: 0 auto;
+  margin: 100px auto;
   padding: 20px;
   font-size: 22px;
   font-weight: 300;
+  text-shadow: none;
+}
+
+.feature-box {
+  width: 60%;
+  height: 200px;
+  background: darkgray;
+  margin: 0 auto;
+}
+
+.feature-pic {
+  height: 90%;
+  padding: 10px;
+  z-index: -1;
+  float: left;
+}
+
+.feature-text {
+  padding: 10px;
+  background: gray;
+  z-index: 1;
 }
