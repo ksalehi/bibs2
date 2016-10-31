@@ -8,7 +8,7 @@ $(document).ready(() => {
     arrows: true,
     appendArrows: $('.carousel-subtext'),
     dots: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2000,
   });
 });

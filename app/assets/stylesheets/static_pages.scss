@@ -11,18 +11,24 @@
 }
 
 .carousel-text {
-  padding-top: 300px;
+  padding-top: 250px;
   padding-left: 40px;
   text-shadow: 1px 1px 2px black;
+  display: block;
 }
 
-.carousel-subtext {
-  font-size: 18px;
+.learn-more-button {
+  background: #ffd507;
+  border-radius: 2px;
+  padding: 4px 15px;
+  font-size: 16px;
+  font-weight: 300;
+  border: none;
 }
 
-.carousel-subtext:hover {
+.learn-more-button:hover {
   cursor: pointer;
-  color: aquamarine;
+  background: #c1a104;
 }
 
 .carousel-img {
@@ -52,7 +58,7 @@
 }
 
 html {
-  background: black;
+  background: #373737;
   font-family: 'Roboto', sans-serif;
   color: whitesmoke;
 }
@@ -91,7 +97,7 @@ h1 {
 }
 
 .navbar li a {
-  background: black;
+  background: #373737;
   padding: 15px 20px;
   border-radius: 1px;
 }
@@ -110,4 +116,12 @@ h1 {
 .clearfix {
   content: none;
   clear: both;
+}
+
+.paragraph {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 22px;
+  font-weight: 300;
 }
