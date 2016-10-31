@@ -123,7 +123,7 @@ h1 {
 
 .paragraph {
   width: 60%;
-  margin: 100px auto;
+  margin: 100px auto 50px; 
   padding: 20px;
   font-size: 22px;
   font-weight: 300;
@@ -132,20 +132,47 @@ h1 {
 
 .feature-box {
   width: 60%;
-  height: 200px;
+  height: 220px;
   background: darkgray;
   margin: 0 auto;
+  position: relative;
 }
 
 .feature-pic {
-  height: 90%;
-  padding: 10px;
+  height: 180px;
+  padding: 10px 0;
+  margin: 10px;
   z-index: -1;
   float: left;
+  width: 130px;
+}
+
+.feature-pic--barnea {
+  background: url("https://news.brown.edu/files/styles/vertical/public/images/Barnea1.jpg?itok=C1inwjdA");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.feature-pic--hochberg {
+  background: url("http://today.brown.edu/files/imagecache/main_image/article_images/Hochberg.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 0;
 }
 
 .feature-text {
   padding: 10px;
-  background: gray;
+  background: rgba(60, 60, 60, 0.8);
   z-index: 1;
+  display: block;
+  position: absolute;
+  width: 97.6%;
+  left: 0;
+  bottom: -16px;
+}
+
+.feature-text:hover {
+  cursor: pointer;
+  background: rgba(30, 30, 30, 0.8);
+  transition: 0.5s ease;
 }
