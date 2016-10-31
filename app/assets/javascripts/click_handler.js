@@ -6,7 +6,7 @@ function linkTo(domNode, link) {
 
 $(document).ready(()=>{
   linkTo('.for-brown', 'https://www.brown.edu/academics/brain-science/');
-  linkTo('.events', 'bit.ly/Mj3ibo');
+  linkTo('.events', 'https://bit.ly/Mj3ibo');
   linkTo('.donate', 'http://giving.brown.edu/priorities/brain-science');
   linkTo('.news', 'https://www.brown.edu/academics/brain-science/news');
   linkTo('.feature-text', 'https://vivo.brown.edu/display/gbarnea');
