@@ -2,6 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+#bibs-title {
+  font-weight: 300;
+  font-size: 60px;
+}
+
 .carousel {
   width: 100%;
   height: 500px;
@@ -12,7 +17,7 @@
 }
 
 .carousel-text {
-  padding-top: 350px;
+  padding-top: 300px;
   padding-left: 40px;
   text-shadow: 1px 1px 2px black;
   display: block;
@@ -80,6 +85,7 @@ h1 {
   width: 118px;
   background-size: cover;
   float: right;
+  margin: 15px 15px 0 0;
 }
 
 .navbar {
@@ -134,6 +140,8 @@ h1 {
   background: darkgray;
   margin: 0 auto;
   position: relative;
+  padding: 20px;
+  border-radius: 2px;
 }
 
 .feature-pic {
@@ -147,30 +155,80 @@ h1 {
 
 .feature-pic--barnea {
   background: url("https://news.brown.edu/files/styles/vertical/public/images/Barnea1.jpg?itok=C1inwjdA");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .feature-pic--hochberg {
   background: url("http://today.brown.edu/files/imagecache/main_image/article_images/Hochberg.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  margin-left: 0;
+  background-position: center;
+  margin-right: 20px;
 }
 
-.feature-text {
-  padding: 10px;
+.feature-title {
+  padding: 20px 30px;
   background: rgba(60, 60, 60, 0.8);
   z-index: 1;
   display: block;
   position: absolute;
-  width: 97.6%;
+  width: 93.1%;
   left: 0;
-  bottom: -16px;
+  bottom: -20px;
+  font-size: 20px;
+  color: whitesmoke;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
 }
 
-.feature-text:hover {
+.feature-title:hover {
   cursor: pointer;
   background: rgba(30, 30, 30, 0.8);
   transition: 0.5s ease;
+}
+
+.feature-text {
+  color: black;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.hidden {
+  display: none;
+}
+
+.feature-dropdown {
+  width: 60%;
+  margin: 10px auto;
+  background: darkgray;
+  border-radius: 2px;
+  padding: 20px;
+  color: black;
+}
+
+.feature-dropdown__title {
+  font-size: 24px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.feature-dropdown__text {
+  display: inline-block;
+  width: 66%;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 10px;
+  margin: 0;
+}
+
+.feature-dropdown__img {
+  background: url("http://www.walldevil.com/wallpapers/w03/897861-neurons-neuroscience-science-fiction-synapse.jpg");
+  background-size: cover;
+  height: 120px;
+  width: 29%;
+  float: right;
+  margin: 20px 10px;
+  border-radius: 2px;
 }
