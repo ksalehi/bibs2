@@ -8,6 +8,7 @@
   min-height: 500px;
   margin: 0 auto;
   display: block;
+  overflow: hidden;
 }
 
 .carousel-text {
@@ -74,12 +75,9 @@ h1 {
 }
 
 .logo {
-  // background: url("https://news.brown.edu/files/BIBS_logo2_0.jpg");
-  // height: 150px;
-  // width: 125px;
-  background: url("https://www.brown.edu/sites/default/files/imagecache/home_teaser/bibs-home.jpg");
+  background: url('./bibs-logo-transparent.png'); // for some reason file must be in this folder
   height: 100px;
-  width: 145px;
+  width: 118px;
   background-size: cover;
   float: right;
 }
@@ -100,7 +98,7 @@ h1 {
 }
 
 .navbar li a {
-  background: #373737;
+  background: transparent;
   padding: 15px 20px;
   border-radius: 1px;
 }
@@ -123,7 +121,7 @@ h1 {
 
 .paragraph {
   width: 60%;
-  margin: 100px auto 50px; 
+  margin: 100px auto 50px;
   padding: 20px;
   font-size: 22px;
   font-weight: 300;
