@@ -2,6 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+body {
+    margin: 0;
+}
+
 #bibs-title {
   font-weight: 300;
   font-size: 56px;
@@ -55,7 +59,7 @@
 }
 
 .carousel-img2 {
-  background: url('http://img0.mxstatic.com/wallpapers/d501dcc11d679612a0186e5421189e4c_large.jpeg');
+  background: url('https://upload.wikimedia.org/wikipedia/commons/2/20/Rat_hippocampus_stained_with_antibody_to_NeuN_(green),_myelin_basic_protein_(red)_and_DNA_(blue).jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -97,8 +101,7 @@ h1 {
 }
 
 .navbar ul {
-  margin: 10px auto;
-  padding: 0 20px;
+  padding: 0;
 }
 
 .navbar li {
@@ -113,14 +116,15 @@ h1 {
 
 .navbar li a:hover {
   cursor: pointer;
-  color: #ffd507;
-  transition: 1s ease;
+  background: #ffd507;
+  color: #373737;
+  // transition: 1s ease;
 }
-
-.left-nav {
-  margin-left: 0 !important;;
-  padding-left: 0 !important;;
-}
+//
+// .left-nav {
+//   margin-left: 0 !important;;
+//   padding-left: 0 !important;;
+// }
 
 .clearfix {
   content: none;
